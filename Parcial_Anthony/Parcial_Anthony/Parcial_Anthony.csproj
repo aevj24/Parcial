@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{06CD5A13-E4E6-4048-BCDB-05E1999A45C1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Parcial_Anthony</RootNamespace>
+    <AssemblyName>Parcial_Anthony</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pregunta3\Client.cs" />
+    <Compile Include="Pregunta3\FacebookSharer.cs" />
+    <Compile Include="Pregunta3\PinterestSharer.cs" />
+    <Compile Include="Pregunta3\RedditPoster.cs" />
+    <Compile Include="Pregunta3\RedditSharer.cs" />
+    <Compile Include="Pregunta3\Sharer.cs" />
+    <Compile Include="Pregunta3\SharerFactory.cs" />
+    <Compile Include="Pregunta3\SharerType.cs" />
+    <Compile Include="Pregunta3\Sharing.cs" />
+    <Compile Include="Pregunta3\TwitterSharer.cs" />
+    <Compile Include="Pregunta4\Application\Dto\AlumnoDto.cs" />
+    <Compile Include="Pregunta4\Application\Dto\BaseErrorDto.cs" />
+    <Compile Include="Pregunta4\Application\Dto\BaseErrorResponseDto.cs" />
+    <Compile Include="Pregunta4\Application\Dto\BaseResponseDto.cs" />
+    <Compile Include="Pregunta4\Application\NotificationPattern\Error.cs" />
+    <Compile Include="Pregunta4\Application\NotificationPattern\Notification.cs" />
+    <Compile Include="Pregunta4\Application\Service\AlumnoApplication.cs" />
+    <Compile Include="Pregunta4\Application\Service\BaseApplication.cs" />
+    <Compile Include="Pregunta4\Domain\Entities\Alumno.cs" />
+    <Compile Include="Pregunta4\Domain\Entities\Carrera.cs" />
+    <Compile Include="Pregunta4\Domain\Repository\AlumnoRepository.cs" />
+    <Compile Include="Pregunta4\Infrastructure\AlumnoFakeRepository.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Parcial_Preguntas.docx" />
+    <None Include="Pregunta3\ClassDiagramPregunta3.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pregunta5\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

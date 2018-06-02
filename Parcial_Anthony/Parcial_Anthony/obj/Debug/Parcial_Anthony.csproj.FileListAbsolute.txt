@@ -1,0 +1,5 @@
+C:\Users\15-J150LA\Desktop\Parcial-Anthony\Parcial_Anthony\Parcial_Anthony\bin\Debug\Parcial_Anthony.exe.config
+C:\Users\15-J150LA\Desktop\Parcial-Anthony\Parcial_Anthony\Parcial_Anthony\bin\Debug\Parcial_Anthony.exe
+C:\Users\15-J150LA\Desktop\Parcial-Anthony\Parcial_Anthony\Parcial_Anthony\bin\Debug\Parcial_Anthony.pdb
+C:\Users\15-J150LA\Desktop\Parcial-Anthony\Parcial_Anthony\Parcial_Anthony\obj\Debug\Parcial_Anthony.exe
+C:\Users\15-J150LA\Desktop\Parcial-Anthony\Parcial_Anthony\Parcial_Anthony\obj\Debug\Parcial_Anthony.pdb
